@@ -1,16 +1,15 @@
-import React from "react";
-import { Navbar, Brand, CTA } from "./components";
-import "./App.css";
-import Cta from "./components/cta/Cta";
+import React from 'react';
+import { Navbar, Brand, CTA } from './components';
+import './App.css';
+import Cta from './components/cta/Cta';
 import {
   Footer,
   Blog,
   Possibility,
   Features,
   WhatGPT3,
-  header,
   Header,
-} from "./containers";
+} from './containers';
 
 function App() {
   return (
