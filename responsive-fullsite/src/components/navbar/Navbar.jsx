@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import "./Navbar.css";
-import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
-import logo from "../../assets/logo.svg";
+import React, { useState } from 'react';
+import './Navbar.css';
+import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+import logo from '../../assets/logo.svg';
 
 const Menu = () => (
   <>
@@ -9,7 +9,7 @@ const Menu = () => (
       <a href="#home">Home</a>
     </p>
     <p>
-      <a href="#wgpt3">What is GPT</a>
+      <a href="#whpt3">What is GPT</a>
     </p>
     <p>
       <a href="#possibility">Open AI</a>

@@ -1,7 +1,6 @@
 import React from 'react';
-import { Navbar, Brand, CTA } from './components';
+import { Navbar, Brand, Cta } from './components';
 import './App.css';
-import Cta from './components/cta/Cta';
 import {
   Footer,
   Blog,
