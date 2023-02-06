@@ -3,12 +3,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: var(--color-footer);
 }
 .gpt3__footer p {
-  margin-top: 2.5rem;
+  margin-top: 1rem;
   cursor: pointer;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 30px;
 }
 .gpt3__footer h3 {
@@ -53,12 +54,13 @@
   color: #ffffff;
   display: flex;
   justify-content: space-around;
-  margin: 14rem 0 5rem 0;
+  margin: 5rem 0 5rem 0;
 }
 .gpt__footer__container__links-logo {
   display: flex;
   flex-direction: column;
   color: #ffffff;
+  margin-right: 7rem;
 }
 .gpt__footer__container__links-logo img {
   width: 118px;
@@ -91,8 +93,26 @@
     margin-bottom: 1.6rem;
   }
 }
-@media screen and (max-width: 655px) {
+@media screen and (max-width: 580px) {
   .gpt3__footer__container-header {
-    font-size: 22px;
+    font-size: 24px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 18px;
+  }
+  .gpt__footer__container-links {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .gpt__footer__container__links-logo img {
+    width: 118px;
+    height: 40px;
+    margin-bottom: 1.6rem;
+    display: flex;
   }
 }

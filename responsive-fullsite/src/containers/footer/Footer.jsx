@@ -1,6 +1,6 @@
-import React from 'react';
-import './footer.css';
-import logo from '../../assets/logo.svg';
+import React from "react";
+import "./footer.css";
+import logo from "../../assets/logo.svg";
 const Footer = () => {
   return (
     <div className="gpt3__footer section__padding">
@@ -14,9 +14,9 @@ const Footer = () => {
         <div className="gpt__footer__container-links">
           <div className="gpt__footer__container__links-logo">
             <img src={logo} alt="logo" />
-            <p>
+            <h4>
               Crechterwoord K12 182 DK <br /> Alknjkcb, All Rights Reserved
-            </p>
+            </h4>
           </div>
           <div className="container">
             <div className="gpt__footer__container__links-groupA">
